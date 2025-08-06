@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: #f2f6fb;
+  color: #232340;
+}
+
+.auth-form, .doc-list, .editor {
+  max-width: 430px;
+  margin: 3rem auto;
+  padding: 2.3rem 2rem;
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 6px 36px 8px #dde6f6;
+}
+
+input, textarea {
+  width: 100%;
+  margin: 0.5rem 0;
+  padding: 0.65em 0.7em;
+  border-radius: 8px;
+  border: 1px solid #d1d5db;
+  font-size: 1.04rem;
+  background: #f9fafb;
+  box-sizing: border-box;
+}
+
+button {
+  background: linear-gradient(90deg, #396afc 0%, #2948ff 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 1.6em;
+  margin: 0.8em 0 0;
+  font-size: 1.07rem;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: 0 3px 18px #2948ff22;
+  transition: background 0.18s;
+}
+button:hover {
+  background: linear-gradient(90deg, #2948ff 0%, #396afc 100%);
+}
+
+.editor textarea {
+  font-family: 'Fira Mono', monospace;
+  font-size: 1.1rem;
+  min-height: 340px;
+  resize: vertical;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+li {
+  padding: 0.7em 0.5em;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: background 0.16s;
+}
+li:hover {
+  background: #e7edfa;
+}
+
+.navbar {
+  width: 100%;
+  background: #2948ff;
+  color: #fff;
+  padding: 1.2em 1.2em;
+  font-size: 1.25rem;
+  font-weight: 700;
+  border-radius: 0 0 16px 16px;
+  box-shadow: 0 3px 16px #2948ff22;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logout-btn {
+  background: none;
+  color: #fff;
+  border: 1px solid #fff;
+  font-size: 1em;
+  border-radius: 6px;
+  cursor: pointer;
+  padding: 0.35em 1em;
+}
