@@ -13,7 +13,7 @@ function App() {
   const [view, setView] = useState('docs'); // 'docs', 'editor', or 'chat'
   const [username, setUsername] = useState('');
 
-  // Extract username (or user id) from JWT token on app load or auth change
+  
   useEffect(() => {
     const token = localStorage.getItem('token');
     if (token) {
