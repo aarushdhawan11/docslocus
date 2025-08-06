@@ -5,7 +5,7 @@ import Signup from './components/Auth/signup';
 import DocumentList from './components/DocumentList';
 import Editor from './components/Editor';
 import NavBar from './components/Navbar';
-import Chat from './components/Chat'; // Import your Chat component
+import Chat from './components/Chat';
 
 function App() {
   const [authed, setAuthed] = useState(!!localStorage.getItem('token'));
